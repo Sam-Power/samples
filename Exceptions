@@ -1,0 +1,12 @@
+
+
+
+
+x = input()
+a = input()
+b = input()
+c = input()
+try:
+    print(a.split[0]/a.split[1])
+except ZeroDivisionError as e:
+    print "Error Code:",e
