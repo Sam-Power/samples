@@ -47,6 +47,7 @@ class Solution:
         if head == None:
             return head
         node = head
+        
         num = 0
         result = 0
         while node.next:
