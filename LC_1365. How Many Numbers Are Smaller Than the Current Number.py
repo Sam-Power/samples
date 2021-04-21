@@ -33,3 +33,11 @@ class Solution:
                     temp += 1
             res.append(temp)
         return res
+
+"""
+nums = [8, 1, 2, 2, 3]
+dic = {}
+for idx, num in enumerate(sorted(nums)):
+    dic.setdefault(num, idx)
+print( [dic[num] for num in nums] )
+"""
