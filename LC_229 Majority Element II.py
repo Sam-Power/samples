@@ -1,7 +1,5 @@
 """Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
 
-
-
 Example 1:
 
 Input: nums = [3,2,3]
@@ -15,15 +13,11 @@ Example 3:
 Input: nums = [1,2]
 Output: [1,2]
 
-
 Constraints:
 
 1 <= nums.length <= 5 * 104
 -109 <= nums[i] <= 109
 """
-
-
-
 
 
 class Solution:
@@ -38,5 +32,5 @@ class Solution:
             return [i for i in set(nums) if nums.count(i) > l/3]
 
 
-Runtime: 108 ms, faster than 95.43% of Python3 online submissions for Majority Element II.
-Memory Usage: 15.6 MB, less than 30.13% of Python3 online submissions for Majority Element II.
+# Runtime: 108 ms, faster than 95.43% of Python3 online submissions for Majority Element II.
+# Memory Usage: 15.6 MB, less than 30.13% of Python3 online submissions for Majority Element II.
