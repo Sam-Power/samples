@@ -27,3 +27,4 @@ class Solution:
         for i in x:
             if nums.count(i) > len(nums) / 2:
                 return i
+
